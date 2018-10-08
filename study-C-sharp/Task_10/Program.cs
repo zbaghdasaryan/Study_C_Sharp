@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_9
+namespace Task_10
 {
     class Program
     {
@@ -13,11 +13,11 @@ namespace Task_9
             Console.Write("enter number ");
             int num = Convert.ToInt32(Console.ReadLine());
 
-            int sum = 0;
+            double sum = 1.1;
 
-            for (int n = 0; n <= num; n++)
+            for (int n = 1; n <= num; n++)
             {
-                sum += (num + n) * (num + n);
+                sum += 0.1;
             }
             Console.WriteLine(sum);
             Console.ReadKey();
