@@ -45,7 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ar and geo means", "ar and 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "about you", "about you\about you.csproj", "{ACA5ED24-9587-49AE-8EA8-06CD48AB8B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task 1 while", "task 1 while\task 1 while.csproj", "{7451191D-2337-4477-A55A-12B772DB3555}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1 while", "task 1 while\Task 1 while.csproj", "{7451191D-2337-4477-A55A-12B772DB3555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_while", "Task2_while\Task2_while.csproj", "{008AE1B4-AF13-496A-BFEA-2165DA32244D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{7451191D-2337-4477-A55A-12B772DB3555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7451191D-2337-4477-A55A-12B772DB3555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7451191D-2337-4477-A55A-12B772DB3555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
