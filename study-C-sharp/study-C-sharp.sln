@@ -47,8 +47,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "about you", "about you\abou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1 while", "task 1 while\Task 1 while.csproj", "{7451191D-2337-4477-A55A-12B772DB3555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2 while", "Task2_while\Task 2 while.csproj", "{008AE1B4-AF13-496A-BFEA-2165DA32244D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3 while", "Task 3 while\Task 3 while.csproj", "{EAC29954-A0AF-4029-9C6F-2E6B78DF573C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 4 while", "Task 4 while\Task 4 while.csproj", "{1C0F395C-40C9-4D7C-8E7A-887A3B86BB06}"
@@ -153,10 +151,6 @@ Global
 		{7451191D-2337-4477-A55A-12B772DB3555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7451191D-2337-4477-A55A-12B772DB3555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7451191D-2337-4477-A55A-12B772DB3555}.Release|Any CPU.Build.0 = Release|Any CPU
-		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{008AE1B4-AF13-496A-BFEA-2165DA32244D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAC29954-A0AF-4029-9C6F-2E6B78DF573C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EAC29954-A0AF-4029-9C6F-2E6B78DF573C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC29954-A0AF-4029-9C6F-2E6B78DF573C}.Release|Any CPU.ActiveCfg = Release|Any CPU
