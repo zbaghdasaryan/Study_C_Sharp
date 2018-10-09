@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weekdays", "weekdays\weekda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surface", "ConsoleApp1\Surface.csproj", "{4D26B5D9-59FB-43C1-8568-277FADE7A36C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weekdays swich", "weekdays swich\weekdays swich.csproj", "{2AF8DFAD-E6EC-462B-AE87-120CDEF0B491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{4D26B5D9-59FB-43C1-8568-277FADE7A36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D26B5D9-59FB-43C1-8568-277FADE7A36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D26B5D9-59FB-43C1-8568-277FADE7A36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF8DFAD-E6EC-462B-AE87-120CDEF0B491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF8DFAD-E6EC-462B-AE87-120CDEF0B491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF8DFAD-E6EC-462B-AE87-120CDEF0B491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF8DFAD-E6EC-462B-AE87-120CDEF0B491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
