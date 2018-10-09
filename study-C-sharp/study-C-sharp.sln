@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weekdays swich", "weekdays 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator swich", "calculator swich\calculator swich.csproj", "{6002554E-E63D-4A5D-841B-E5752FD3EED0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ar and geo means", "ar and geo means\ar and geo means.csproj", "{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{6002554E-E63D-4A5D-841B-E5752FD3EED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6002554E-E63D-4A5D-841B-E5752FD3EED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6002554E-E63D-4A5D-841B-E5752FD3EED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
