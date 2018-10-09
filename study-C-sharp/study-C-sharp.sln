@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator swich", "calcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ar and geo means", "ar and geo means\ar and geo means.csproj", "{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "about you", "about you\about you.csproj", "{ACA5ED24-9587-49AE-8EA8-06CD48AB8B43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD5A663-3B3B-40F6-AC37-E0C6BC0DA389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA5ED24-9587-49AE-8EA8-06CD48AB8B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA5ED24-9587-49AE-8EA8-06CD48AB8B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA5ED24-9587-49AE-8EA8-06CD48AB8B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA5ED24-9587-49AE-8EA8-06CD48AB8B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
