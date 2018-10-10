@@ -27,6 +27,7 @@ namespace task_14_while
                 }
                 Console.CursorLeft = Console.CursorLeft - 2;
                 Console.WriteLine("= " + sum);
+                
                 if ((int)num==2*sum)
                 {
                     Console.WriteLine("yes");
