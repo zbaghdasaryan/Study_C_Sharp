@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 13 while", "Task 13 wh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sons ages", "sons ages\sons ages.csproj", "{29B8D5B0-5E97-4901-ACB8-E60567509A2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "romb", "romb\romb.csproj", "{DDE978DF-456B-4D24-8B9D-001BC015F889}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{29B8D5B0-5E97-4901-ACB8-E60567509A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B8D5B0-5E97-4901-ACB8-E60567509A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B8D5B0-5E97-4901-ACB8-E60567509A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE978DF-456B-4D24-8B9D-001BC015F889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE978DF-456B-4D24-8B9D-001BC015F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE978DF-456B-4D24-8B9D-001BC015F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE978DF-456B-4D24-8B9D-001BC015F889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
