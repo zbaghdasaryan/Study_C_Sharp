@@ -16,19 +16,19 @@ namespace task_14_while
                 Console.Write("enter any number ");
                 ulong num = Convert.ToUInt64(Console.ReadLine());
                 ushort sum = 0;
-
-                while (num > 0)
+                ulong temp = num;
+                while (temp > 0)
 
                 {
-                    sum += (ushort)(num % 10);
-                    Console.Write(num % 10 + " + ");
-                    num /= 10;
+                    sum += (ushort)(temp % 10);
+                    Console.Write(temp % 10 + " + ");
+                    temp /= 10;
 
                 }
                 Console.CursorLeft = Console.CursorLeft - 2;
                 Console.WriteLine("= " + sum);
                 
-                if ((int)num==2*sum)
+                if (num==(ulong)2*sum)
                 {
                     Console.WriteLine("yes");
                 }
