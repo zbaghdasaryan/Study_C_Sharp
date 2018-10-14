@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_22_Methods
+namespace Task_23_Methods
 {
     class Program
     {
