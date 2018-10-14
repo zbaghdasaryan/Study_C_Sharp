@@ -20,12 +20,14 @@ namespace Task_21
             long num = Convert.ToInt64(Console.ReadLine());
             
             
-            for (int i = 1; i < 9; i++)
+            for (int i = 1; i < num; i++)
             {
                 if (num%i==0)
-                    Console.WriteLine(i);
+                    Console.WriteLine(i); 
+                
             }
-        Console.ReadKey();
+            Console.WriteLine(num);
+            Console.ReadKey();
         }
     }
 }
