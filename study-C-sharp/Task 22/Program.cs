@@ -18,7 +18,7 @@ namespace Task_22
             Console.Write("enter any number ");
             long num = Convert.ToInt64(Console.ReadLine());
 
-            int sum = 0;
+            int sum = num;
 
             for (int i = 1; i <= num/2; i++)
             {
