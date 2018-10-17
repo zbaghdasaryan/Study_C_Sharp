@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 26", "Task 26\Task 26.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursiv factorial", "Recursiv\Recursiv factorial.csproj", "{1A07491C-CE91-429D-9127-871062DD91D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Recursiv", "Fibonacci Recursiv\Fibonacci Recursiv.csproj", "{4268A111-A0F1-4783-849F-3C3DA8FB610A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{1A07491C-CE91-429D-9127-871062DD91D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A07491C-CE91-429D-9127-871062DD91D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A07491C-CE91-429D-9127-871062DD91D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
