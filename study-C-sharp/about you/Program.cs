@@ -10,7 +10,6 @@ namespace work3
     {
         static void Main(string[] args)
         {
-
             Console.Write("Please enter your First Name ");
             string firstname = Console.ReadLine();
 
