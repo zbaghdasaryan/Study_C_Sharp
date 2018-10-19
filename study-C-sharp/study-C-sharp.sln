@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number Reverse Recursiv", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number Revers Array", "Number Revers Array\Number Revers Array.csproj", "{6546777B-42AF-4693-B442-B152EB719AE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digit Sum", "Digit Sum\Digit Sum.csproj", "{5EE20AD9-32AA-493C-A66C-BE1DCBF5772A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{6546777B-42AF-4693-B442-B152EB719AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6546777B-42AF-4693-B442-B152EB719AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6546777B-42AF-4693-B442-B152EB719AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE20AD9-32AA-493C-A66C-BE1DCBF5772A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE20AD9-32AA-493C-A66C-BE1DCBF5772A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE20AD9-32AA-493C-A66C-BE1DCBF5772A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE20AD9-32AA-493C-A66C-BE1DCBF5772A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
