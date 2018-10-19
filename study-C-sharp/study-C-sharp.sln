@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursiv factorial", "Recur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Recursiv", "Fibonacci Recursiv\Fibonacci Recursiv.csproj", "{4268A111-A0F1-4783-849F-3C3DA8FB610A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum recursive", "sum recursive\sum recursive.csproj", "{5AB94C1C-F2C6-4534-8E60-4D2837A9B570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number Revers", "Number Revers\Number Revers.csproj", "{550FCF2C-1AF0-4BF2-A72F-48CF06E98D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +313,14 @@ Global
 		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4268A111-A0F1-4783-849F-3C3DA8FB610A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB94C1C-F2C6-4534-8E60-4D2837A9B570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB94C1C-F2C6-4534-8E60-4D2837A9B570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB94C1C-F2C6-4534-8E60-4D2837A9B570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB94C1C-F2C6-4534-8E60-4D2837A9B570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550FCF2C-1AF0-4BF2-A72F-48CF06E98D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550FCF2C-1AF0-4BF2-A72F-48CF06E98D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550FCF2C-1AF0-4BF2-A72F-48CF06E98D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550FCF2C-1AF0-4BF2-A72F-48CF06E98D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
