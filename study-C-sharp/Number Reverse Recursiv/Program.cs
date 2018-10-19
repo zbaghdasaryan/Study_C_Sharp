@@ -10,20 +10,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Number_Revers
+namespace Number_Revers_Recursion
 {
     class Program
     {
-        static void reversNumber(int num)
-        {
-            int digit = num % 10;
-            num /= 10;
-            Console.WriteLine(digit);
-        }
         static void Main(string[] args)
         {
-            int num = int.Parse(Console.ReadLine());
-            reversNumber(num);
+            string t = Console.ReadLine();
+            long n = long.Parse(t);
+
+            Console.WriteLine(reverseNumber(n,0));
+            Console.ReadKey();
+        }     
+        static long reverseNumber(long n, long i)
+            {
+                return (n == 0) ? i : reverseNumber(n / 10, 10*(i * 10 + n % 10));
+            }
         }
-    }
 }
