@@ -18,7 +18,7 @@ namespace Task_32
         static void Main(string[] args)
         {
             int N=Convert.ToInt32(Console.ReadLine());            
-            double sum = 0, factorial = 1;
+            double sum = 1, factorial = 1;
             for (int i = 1; i <= N; i++)
             {
                 factorial *= i;
