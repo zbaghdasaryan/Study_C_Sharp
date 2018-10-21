@@ -25,6 +25,7 @@ namespace task_1
                 }
                 Console.CursorLeft = Console.CursorLeft - 2;
                 Console.WriteLine("= " + sum);
+                Console.ReadKey();
             }
         }
     }
