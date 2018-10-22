@@ -44,6 +44,22 @@ namespace Methods
             }
             return 1;
         }
+        static void LeastCommonMultiple(double num1, double num2)
+        {
+            for (double i = 0; i < (num1 * num2 + 1); i++)
+            {
+                if (i % num2 == 0 && i % num1 == 0)
+                {
+                    double LCM = i;
+                    if (i != 0)
+                    {
+                        Console.WriteLine("LCM = {0}", i);
+                        break;
+                    }
+                }
+            }
+            Console.ReadKey();
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("please enter the first number ");
