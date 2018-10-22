@@ -11,10 +11,10 @@ namespace Is_it_factorial
         static void Main(string[] args)
         {
             Console.WriteLine("please enter the first number ");
-            double number = Convert.ToDouble(Console.ReadLine());
-            int factorial = 1;
-            int i = 1;
-            while (factorial <= number)
+            ulong number = Convert.ToUInt64(Console.ReadLine());
+            uint factorial = 1;
+            uint i = 1;
+            while (factorial < number)
             {
                 factorial = factorial * i;
                 i = i + 1;

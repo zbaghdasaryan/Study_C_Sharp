@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Least common multiple", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is it factorial", "Is it factorial\Is it factorial.csproj", "{68EDD9B4-D6EF-4BAB-9B73-4964CCE5BDB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{68EDD9B4-D6EF-4BAB-9B73-4964CCE5BDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68EDD9B4-D6EF-4BAB-9B73-4964CCE5BDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68EDD9B4-D6EF-4BAB-9B73-4964CCE5BDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

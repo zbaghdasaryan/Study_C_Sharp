@@ -60,13 +60,47 @@ namespace Methods
             }
             Console.ReadKey();
         }
+        static void IsItFactorial(ulong number)
+        {
+            ulong factorial = 1;
+            ulong i = 1;
+            while (factorial < number)
+            {
+                factorial = factorial * i;
+                i = i + 1;
+            }
+            if (factorial == number)
+            {
+                Console.WriteLine("number {1} is factorial of {0}", i - 1, number);
+            }
+            else Console.WriteLine("there is no number wich factorial is "+number);
+        }
+        static void IsItFibonacci(ulong number)
+        {
+            ulong fibnum1 = 1;
+            ulong fibnum2 = 1;
+            ulong fibonacci = 1;
+            
+            while (fibonacci < number)
+            {
+                fibonacci = fibnum1 + fibonacci;
+                fibnum1 = fibnum2;
+                fibnum2 = fibonacci;
+            }
+            if (fibonacci == number)
+            {
+                Console.WriteLine("number {0} is a fibonacci number", number);
+            }
+            else Console.WriteLine("number {0} is not fibonacci number", number);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("please enter the first number ");
-            double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("please enter the second number ");
-            double secondNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(GreatestCommonDivisor(firstNumber, secondNumber));
+            ulong firstNumber = Convert.ToUInt64(Console.ReadLine());
+            //Console.WriteLine("please enter the second number ");
+            //double secondNumber = Convert.ToDouble(Console.ReadLine());
+            IsItFibonacci(firstNumber);
             Console.ReadKey();
         }
     }
