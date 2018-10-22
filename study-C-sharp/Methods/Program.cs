@@ -42,7 +42,6 @@ namespace Methods
                 if (num1 % i == 0 & num2 % i == 0)
                     return i;
             }
-
             return 1;
         }
         static void Main(string[] args)
