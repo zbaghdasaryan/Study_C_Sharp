@@ -56,9 +56,13 @@ namespace Class_Human
         {
             gender = ser;
         }
-        
 
 
+        public void PrintHuman()
+        {
+            Console.WriteLine("you create a new human ");
+            Console.WriteLine();
+        }
         public void PrintFirstNaem()
         {
             Console.WriteLine("Human first name is {0}", firstName);
@@ -80,18 +84,34 @@ namespace Class_Human
             Console.WriteLine("Human gender is {0}", gender);
         }
     }
-
         class Program
     {
         static void Main(string[] args)
         {
             Human mard1 = new Human();
-            mard1.SetFirstName("Ani");
-            mard1.SetLastName("Armaghanyan");
-            mard1.SetAge((byte)25);
-            mard1.SetWeight((byte)60);
-            mard1.SetGender("female");
+            Console.Write("please enter human first name - ");
+            string firstname = Console.ReadLine();
+            mard1.SetFirstName(firstname);
 
+            Console.Write("please enter human last name - ");
+            string lastname = Console.ReadLine();
+            mard1.SetLastName(lastname);
+
+            Console.Write("please enter human age - ");
+            byte age  = Convert.ToByte(Console.ReadLine());           
+            mard1.SetAge(age);
+
+            Console.Write("please enter human weight - ");
+            byte weight = Convert.ToByte(Console.ReadLine());
+            mard1.SetWeight(weight);
+
+            Console.Write("please enter human gender - ");
+            string gender = Console.ReadLine();
+            mard1.SetGender(gender);
+
+            Console.WriteLine();
+
+            mard1.PrintHuman();
             mard1.PrintFirstNaem();
             mard1.PrintLastNaem();
             mard1.PrintAge();
@@ -99,8 +119,6 @@ namespace Class_Human
             mard1.PrintGender();
 
             Console.ReadKey();
-        }
-        
-    }
-    
+        }        
+    }    
 }
