@@ -8,6 +8,7 @@ namespace Class_Car_Speed
 {
     class Car
     {
+
         public string carName;
         public int currentSpeed;
 
@@ -27,6 +28,7 @@ namespace Class_Car_Speed
             Car auto1 = new Car();
             auto1.carName = "opel";
             auto1.currentSpeed = 50;
+
             //Car auto2 = new Car();
             //auto2.carName = "ford";
             //auto2.currentSpeed = 100;
