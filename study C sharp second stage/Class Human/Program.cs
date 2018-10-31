@@ -56,7 +56,14 @@ namespace Class_Human
         {
             gender = ser;
         }
-
+        public byte GetWeight()
+        {
+            return weight;
+        }
+        public string GetGender()
+        {
+            return gender;
+        }
 
         public void PrintHuman()
         {
@@ -84,7 +91,7 @@ namespace Class_Human
             Console.WriteLine("Human gender is {0}", gender);
         }
     }
-        class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -98,7 +105,7 @@ namespace Class_Human
             mard1.SetLastName(lastname);
 
             Console.Write("please enter human age - ");
-            byte age  = Convert.ToByte(Console.ReadLine());           
+            byte age = Convert.ToByte(Console.ReadLine());
             mard1.SetAge(age);
 
             Console.Write("please enter human weight - ");
@@ -111,6 +118,7 @@ namespace Class_Human
 
             Console.WriteLine();
 
+
             mard1.PrintHuman();
             mard1.PrintFirstNaem();
             mard1.PrintLastNaem();
@@ -118,7 +126,20 @@ namespace Class_Human
             mard1.PrintWeight();
             mard1.PrintGender();
 
+            if (mard1.GetWeight() <= 50 && mard1.GetGender() == "male")
+                Console.WriteLine("\n human is thin man");
+            else if (mard1.GetWeight() > 50 && mard1.GetWeight() < 85 && mard1.GetGender() == "male")
+                Console.WriteLine("\n human have a normal weight");
+            if (mard1.GetWeight() <= 50 && mard1.GetGender() == "female")
+                Console.WriteLine("\n human have a normal weight");
+            else if (mard1.GetWeight() > 50 && mard1.GetWeight() < 85 && mard1.GetGender() == "female")
+               
+            Console.WriteLine("\n human is a fat");
+            else
+                
+            Console.WriteLine("\n fat men ");
+            
             Console.ReadKey();
-        }        
-    }    
+        }
+    }
 }
