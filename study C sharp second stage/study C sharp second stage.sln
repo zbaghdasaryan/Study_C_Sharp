@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Human", "Class Human\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fuel consumption", "fuel consumption\fuel consumption.csproj", "{BE45BCE8-B4A9-483F-83E3-AA787902ECDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "business tour", "business tour\business tour.csproj", "{879B4895-1716-4C23-B189-B78F789C385C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BE45BCE8-B4A9-483F-83E3-AA787902ECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE45BCE8-B4A9-483F-83E3-AA787902ECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE45BCE8-B4A9-483F-83E3-AA787902ECDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879B4895-1716-4C23-B189-B78F789C385C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879B4895-1716-4C23-B189-B78F789C385C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879B4895-1716-4C23-B189-B78F789C385C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879B4895-1716-4C23-B189-B78F789C385C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
