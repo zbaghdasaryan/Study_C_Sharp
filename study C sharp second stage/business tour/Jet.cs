@@ -4,22 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace business_tour
+namespace aircraft_info
 {
     public class Jet
     {
-        public string JetName { get ; set ; }
-        public int JetDistance { get; set; }
-        public int JetPlaces { get ; set ; }
-        public int JetSpeed { get ; set ; }
-        public string JetColor { get ; set ; }
-
+        public string JetName { private get ; set ; }
+        public int JetDistance { private get; set; }
+        public int JetPlaces { private get ; set ; }
+        public int JetSpeed { private get ; set ; }
+        public string JetColor { private get ; set ; }
 
         public Jet()
         {
 
         }
-
         public Jet(string name, int distance, int places, int speed, string color)
         {
             JetName = name;
@@ -27,20 +25,10 @@ namespace business_tour
             JetPlaces = places;
             JetSpeed = speed;
             JetColor = color;
-        }
-
-       
-
-        public void PrintJet()
+        }       
+        public string GetJetInfo()
         {
-            Console.WriteLine("jet name is {0}\n jet fly dictanc {1} km\n jet places is {2}\n jet max speed is {3}\n jet color is {4}\n", JetName, JetDistance, JetPlaces, JetSpeed, JetColor);
-
-        }
-
-
-
-
-        //int[] jetarray = new int [5]
-
+            return $" jet name is {JetName}\n jet fly dictanc {JetDistance} km\n jet places is {JetPlaces}\n jet max speed is {JetSpeed}\n jet color is {JetColor}\n";
+        }                
     }
 }

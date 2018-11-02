@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace business_tour
+namespace aircraft_info
 {
     public class Aeroport
     {
@@ -12,22 +12,14 @@ namespace business_tour
         public Jet[] jetArry { get; set ; }
         int i;
 
-
-        public Aeroport(string nameAeroport, int N)
+        public Aeroport(string nameAeroport, int jetCount)
         {
             NameOfAeroport = nameAeroport;
-            jetArry = new Jet[N];
+            jetArry = new Jet[jetCount];
         }
-
         public void FillAeroport(Jet aeroplane)
         {
             jetArry[i++] = aeroplane;
         }
-
-
-
-
-
-
     }     
 }
