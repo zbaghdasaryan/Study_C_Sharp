@@ -19,7 +19,7 @@ namespace Animals_Hierarchia
         public Animal(string name, double weight)
         {
             this.name = name;
-            this.averageWeight = weight;
+            this.averageWeight = Weight;
         }
     }
     
