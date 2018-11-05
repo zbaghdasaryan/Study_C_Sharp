@@ -33,19 +33,19 @@ namespace aircraft_info
             // information about first aeroport
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"aircrafts in {aeroport1.NameOfAeroport} aeroport \n");
-            for (int i = 0; i < aeroport1.jetArry.Length; i++)               
+            for (int i = 0; i < aeroport1.jetArray.Length; i++)               
             {
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine(aeroport1.jetArry[i].GetJetInfo());                
+                Console.WriteLine(aeroport1.jetArray[i].GetJetInfo());                
             }
             
             // information about second aeroport
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine ($"aircrafts in {aeroport2.NameOfAeroport} aeroport \n");
-            for (int i = 0; i < aeroport2.jetArry.Length; i++)
+            for (int i = 0; i < aeroport2.jetArray.Length; i++)
             {
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine(aeroport1.jetArry[i].GetJetInfo());
+                Console.WriteLine(aeroport1.jetArray[i].GetJetInfo());
             }
 
             Console.ReadKey();

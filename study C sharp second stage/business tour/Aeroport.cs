@@ -9,17 +9,18 @@ namespace aircraft_info
     public class Aeroport
     {
         public string NameOfAeroport { get; set; }
-        public Jet[] jetArry { get; set ; }
+        public Jet[] jetArray { get; set ; }
         int i;
 
         public Aeroport(string nameAeroport, int jetCount)
         {
             NameOfAeroport = nameAeroport;
-            jetArry = new Jet[jetCount];
+            jetArray = new Jet[jetCount];
         }
         public void FillAeroport(Jet aeroplane)
         {
-            jetArry[i++] = aeroplane;
+            
+            jetArray[i++] = aeroplane;
         }
     }     
 }

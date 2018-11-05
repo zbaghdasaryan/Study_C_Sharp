@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fuel consumption", "fuel co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aitcraft info", "business tour\Aitcraft info.csproj", "{879B4895-1716-4C23-B189-B78F789C385C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals_Hierarchia", "Animals_Hierarchia\Animals_Hierarchia.csproj", "{647B94E8-3B9D-4635-84BE-5B4F7FA0F761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{879B4895-1716-4C23-B189-B78F789C385C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{879B4895-1716-4C23-B189-B78F789C385C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{879B4895-1716-4C23-B189-B78F789C385C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647B94E8-3B9D-4635-84BE-5B4F7FA0F761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647B94E8-3B9D-4635-84BE-5B4F7FA0F761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647B94E8-3B9D-4635-84BE-5B4F7FA0F761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647B94E8-3B9D-4635-84BE-5B4F7FA0F761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
