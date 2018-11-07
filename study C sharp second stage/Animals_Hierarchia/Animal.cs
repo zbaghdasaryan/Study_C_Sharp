@@ -16,10 +16,10 @@ namespace Animals_Hierarchia
 
         }
 
-        public Animal(string name, double weight)
+        public Animal(string name, double averageWeight)
         {
             this.name = name;
-            this.averageWeight = Weight;
+            this.averageWeight = averageWeight;
         }
     }
     

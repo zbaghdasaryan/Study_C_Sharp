@@ -26,6 +26,7 @@ namespace Student
             Gender = ser;
         }
     }
+ 
     class Student : Human
     {
         string university;
