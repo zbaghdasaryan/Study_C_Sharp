@@ -9,10 +9,13 @@ namespace NestedClass
     class MainClass
     {
         public string Name { get; set; }
+        public NestedClass Nam;
+
         public void MainClassMethod()
         {
             Console.WriteLine("method form class Main Class");
         }
+
         public class NestedClass
         {
             public void MethodNC()

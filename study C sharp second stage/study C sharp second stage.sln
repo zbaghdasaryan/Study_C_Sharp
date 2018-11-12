@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape", "Shape\Shape.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedClass", "NestedClass\NestedClass.csproj", "{DD171D64-F7E1-42A4-BE77-865025901A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Nested", "Car Nested\Car Nested.csproj", "{7E6E5FD6-1346-4DCC-A78B-305CF8E90B39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6E5FD6-1346-4DCC-A78B-305CF8E90B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6E5FD6-1346-4DCC-A78B-305CF8E90B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6E5FD6-1346-4DCC-A78B-305CF8E90B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6E5FD6-1346-4DCC-A78B-305CF8E90B39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
