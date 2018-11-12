@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online Shop", "Online Shop\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape", "Shape\Shape.csproj", "{BB36ACE1-04DD-4A50-BB90-EC7EBC546A53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedClass", "NestedClass\NestedClass.csproj", "{DD171D64-F7E1-42A4-BE77-865025901A0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BB36ACE1-04DD-4A50-BB90-EC7EBC546A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB36ACE1-04DD-4A50-BB90-EC7EBC546A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB36ACE1-04DD-4A50-BB90-EC7EBC546A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD171D64-F7E1-42A4-BE77-865025901A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
