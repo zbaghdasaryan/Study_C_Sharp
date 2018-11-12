@@ -20,6 +20,7 @@ namespace Online_Shop
                 );
 
             Console.WriteLine("List of goods:");
+            Console.WriteLine();
 
             Phone mobilePhone = new Phone(
                 "Samsung",
@@ -38,7 +39,7 @@ namespace Online_Shop
             Console.WriteLine();
 
             Battary phoneBattary = new Battary(
-                "Asus",
+                "Energizzer",
                 20,
                 "China",
                 3000
@@ -85,11 +86,13 @@ namespace Online_Shop
             {
                 Console.WriteLine();
                 Console.WriteLine($"Hello {user.Name} your balance {user.Balance}");
+                Console.WriteLine();
 
                 for (int i = 0; i < products.Length; i++)
                 {
-                    Console.WriteLine($"Product {i} {products[i].Name} by price {products[i].Price}");
+                    Console.WriteLine($"Product {i} {products[i].Name} by price {products[i].Price} $");
                 }
+                Console.WriteLine();
                 Console.WriteLine("Select the item number and press Enter:");
                 Console.WriteLine();
 

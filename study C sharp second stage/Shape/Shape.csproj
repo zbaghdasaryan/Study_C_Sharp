@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4377CD15-CAC7-4030-9338-266C8092E547}</ProjectGuid>
+    <ProjectGuid>{BB36ACE1-04DD-4A50-BB90-EC7EBC546A53}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Online_Shop</RootNamespace>
-    <AssemblyName>Online Shop</AssemblyName>
+    <RootNamespace>Shape</RootNamespace>
+    <AssemblyName>Shape</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Battary.cs" />
-    <Compile Include="Informer.cs" />
-    <Compile Include="Notebook.cs" />
-    <Compile Include="Phone.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shop.cs" />
-    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
