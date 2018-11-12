@@ -10,13 +10,18 @@ namespace Car_Nested
     {
         class Zapaska
         {            
-            public int pressure;          
+            public int pressure;
+            
+
+            public int Diametr { get ; set ; }
+
             public void Pchel(int pressure)
             {
                 this.pressure = pressure;
             }
         }
         Zapaska zapas = new Zapaska();
+        
         public int PressureInWheel { get; set; }
         public int ZapasPressue
         {
@@ -25,7 +30,18 @@ namespace Car_Nested
                 return zapas.pressure;
             }
         }
-        
+        public int ZapasDiametr
+        {
+            get
+            {
+                return zapas.Diametr;
+            }
+            set
+            {
+                zapas.Diametr = value;
+            }
+        }
+
         public void PchelAkery(int pressHimnakan, int pressZapas)
         {
             PressureInWheel = pressHimnakan;
@@ -37,6 +53,8 @@ namespace Car_Nested
         static void Main(string[] args)
         {
             Car avto = new Car();
+            avto.ZapasDiametr = 15;
+            Console.WriteLine(avto.ZapasDiametr);
 
             avto.PchelAkery(2300, 2100);         
             Console.WriteLine(avto.PressureInWheel);
