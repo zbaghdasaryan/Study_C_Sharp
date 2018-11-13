@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN Homeworks", "ITVDN Homeworks\ITVDN Homeworks.csproj", "{36B5E48F-0017-4BD1-BFB9-C61C8C2F09CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1", "Task 1\Task 1.csproj", "{78039CBA-FE06-4632-9310-CD7929B9B06F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B5E48F-0017-4BD1-BFB9-C61C8C2F09CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B5E48F-0017-4BD1-BFB9-C61C8C2F09CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B5E48F-0017-4BD1-BFB9-C61C8C2F09CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B5E48F-0017-4BD1-BFB9-C61C8C2F09CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78039CBA-FE06-4632-9310-CD7929B9B06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78039CBA-FE06-4632-9310-CD7929B9B06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78039CBA-FE06-4632-9310-CD7929B9B06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78039CBA-FE06-4632-9310-CD7929B9B06F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C3D250-9EB9-40B9-A4FA-D3110EA54482}
+	EndGlobalSection
+EndGlobal
