@@ -18,12 +18,31 @@ namespace Document
             body = new Body();
             footer = new Footer();
         }
+
+        public Document(string title)
+        {
+            InitializDocument();
+                this.title.Content = title;
+        }
         public void Show()
         {
             title.Show();
             body.Show();
             footer.Show();
         }
-
+        public string Body
+        {
+            set
+            {
+                this.body.Content = value;
+            }
+        }
+        public string Footer
+        {
+            set
+            {
+                this.footer.Content = value;
+            }
+        }
     }
 }

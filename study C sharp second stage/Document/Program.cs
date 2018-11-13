@@ -10,6 +10,15 @@ namespace Document
     {
         static void Main(string[] args)
         {
+            Document document = new Document("SRM\n");
+     
+            document.Body = "Super Jet 100\n";
+        
+            document.Footer = "project manager Z. Baghdasaryan";
+            document.Show();
+
+            Console.ReadKey();
         }
+        
     }
 }
