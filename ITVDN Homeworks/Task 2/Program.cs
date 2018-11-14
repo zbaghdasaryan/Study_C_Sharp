@@ -24,7 +24,7 @@ namespace Task_2
             Console.WriteLine("Perimeter = {0}, Area= {1}", rectangle.Perimeter, rectangle.Area);
            
 
-            // Delay.
+           
             Console.ReadKey();
         }
     }
