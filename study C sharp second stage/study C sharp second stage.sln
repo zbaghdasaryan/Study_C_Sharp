@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Document", "Document\Docume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aircraft Interface", "Aircraft Interface\Aircraft Interface.csproj", "{DDF87D44-4058-44A0-B35E-1DF4D1A94162}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface Task", "Interface Task\Interface Task.csproj", "{F5D67EB7-3D0E-4F7A-9B78-822BF7BEAC64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{DDF87D44-4058-44A0-B35E-1DF4D1A94162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF87D44-4058-44A0-B35E-1DF4D1A94162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF87D44-4058-44A0-B35E-1DF4D1A94162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D67EB7-3D0E-4F7A-9B78-822BF7BEAC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D67EB7-3D0E-4F7A-9B78-822BF7BEAC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D67EB7-3D0E-4F7A-9B78-822BF7BEAC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D67EB7-3D0E-4F7A-9B78-822BF7BEAC64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
