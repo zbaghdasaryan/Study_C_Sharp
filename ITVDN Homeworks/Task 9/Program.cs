@@ -38,6 +38,7 @@ namespace Task_9
     {
         static void Main(string[] args)
         {
+            int? a = null;
             ColorPrinter colorPrinter = new ColorPrinter(ConsoleColor.Red);
             colorPrinter.Print("hello");
           
