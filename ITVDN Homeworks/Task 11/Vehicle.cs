@@ -54,7 +54,7 @@ namespace Task_11
             get { return namePort; }
             set
             {
-                if (value == null)
+                if (namePort == null)
                 {
                     Console.WriteLine("please enter name of port");
                 }
