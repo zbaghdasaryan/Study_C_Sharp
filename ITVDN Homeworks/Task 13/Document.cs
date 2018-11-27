@@ -8,42 +8,45 @@ namespace Task_13
 {
     class Document
     {
-        Part title = null;
-        Part body = null;
-        Part footer = null;
+        Title title = new Title();
+        Body body = new Body();
+        Footer footer = new Footer();
 
-        void InitializeDocument()
-        {
-            this.title = new Title();
-            this.body = new Body();
-            this.footer = new Footer();
-        }
+        //void InitializeDocument()
+        //{
+        //    title = new Title();
+        //    body = new Body();
+        //    footer = new Footer();
+        //}
 
-        public Document(string title)
+        public Document(string title, string body, string footer)
         {
-            InitializeDocument();
+           // InitializeDocument();
             this.title.Content = title;
+            this.body.Content = body;
+            this.footer.Content = footer;
+
         }
         public void Show()
         {
-            this.title.Show();
-            this.body.Show();
-            this.footer.Show();
+            title.Show();
+            body.Show();
+            footer.Show();
         }
-        public string Body
-        {
-            set
-            {
-                this.body.Content = value;
-            }
-        }
-        public string Footer
-        {
-            set
-            {
-                this.footer.Content = value;
-            }
-        }
+        //public string Body
+        //{
+        //    set
+        //    {
+        //        body.Content = value;
+        //    }
+        //}
+        //public string Footer
+        //{
+        //    set
+        //    {
+        //        footer.Content = value;
+        //    }
+        //}
 
 
     }

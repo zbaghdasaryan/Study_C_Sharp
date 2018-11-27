@@ -10,9 +10,9 @@ namespace Task_13
     {
         static void Main(string[] args)
         {
-            Document document = new Document("contract");
-            document.Body = "body of document";
-            document.Footer = "footer of document";
+            Document document = new Document("contract", "body of document", "footer of document");
+            //document.Body = "body of document";
+            //document.Footer = "footer of document";
 
             document.Show();
 
