@@ -31,14 +31,14 @@ namespace Delegat_Calculator
 
 
             double DoDivision(double x, double y)
-            {             
+            {
                 if (y == 0)
                 {
                     Console.WriteLine("you cant divide by 0");
                     return double.NaN;
                 }
                 else
-                    return x / y;                
+                    return x / y;
             }
 
             double DoMultiplication(double x, double y)
@@ -56,23 +56,39 @@ namespace Delegat_Calculator
                 return x + y;
             }
 
+            double DoRemainder(double x, double y)
+            {
+                return x % y;
+            }
+
+            double DoDegree(double x, double y)
+            {
+                return Math.Pow(x, y);
+            }
+
             DelCalc delCalc1 = new DelCalc(DoAddition);
             DelCalc delCalc2 = new DelCalc(DoSubtraction);
             DelCalc delCalc3 = new DelCalc(DoMultiplication);
             DelCalc delCalc4 = new DelCalc(DoDivision);
+            DelCalc delCalc5 = new DelCalc(DoRemainder);
+            DelCalc delCalc6 = new DelCalc(DoDegree);
 
             Console.WriteLine();
-            Console.Write("x + y = ");    
-            Console.WriteLine( delCalc1(firstNumber, secondNumber));
+            Console.Write("x + y = ");
+            Console.WriteLine(delCalc1(firstNumber, secondNumber));
             Console.Write("x - y = ");
             Console.WriteLine(delCalc2(firstNumber, secondNumber));
             Console.Write("x * y = ");
             Console.WriteLine(delCalc3(firstNumber, secondNumber));
             Console.Write("x / y = ");
             Console.WriteLine(delCalc4(firstNumber, secondNumber));
+            Console.Write("x % y = ");
+            Console.WriteLine(delCalc5(firstNumber, secondNumber));
+            Console.Write("x ^ y = ");
+            Console.WriteLine(delCalc6(firstNumber, secondNumber));
 
             Console.ReadKey();
-
         }
     }
 }
+
