@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegat Task 9", "Delegat T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegat Task 10", "Delegat Task 10\Delegat Task 10.csproj", "{EC7AE786-BE37-4EE3-A9B2-3EA97B4CBDCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegat Task 11", "Delegat Task 11\Delegat Task 11.csproj", "{95097BDD-DC1B-4E7D-A972-156466BDA785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{EC7AE786-BE37-4EE3-A9B2-3EA97B4CBDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC7AE786-BE37-4EE3-A9B2-3EA97B4CBDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC7AE786-BE37-4EE3-A9B2-3EA97B4CBDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95097BDD-DC1B-4E7D-A972-156466BDA785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95097BDD-DC1B-4E7D-A972-156466BDA785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95097BDD-DC1B-4E7D-A972-156466BDA785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95097BDD-DC1B-4E7D-A972-156466BDA785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
