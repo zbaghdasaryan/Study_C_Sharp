@@ -21,9 +21,9 @@ namespace Delegat_Task_1
             Console.WriteLine("enter the third number");
             double z = Convert.ToDouble(Console.ReadLine());
 
-            double del(double a, double b, double c) => (double)(a + b + c) / 3;
+            DelegatArithmeticMean del = (a, b, c) => (double)(a + b + c) / 3;
 
-            Console.WriteLine(del(x,y,z));
+            Console.WriteLine("Arithmetic mean = "+ del(x,y,z));
 
             Console.ReadKey();
         }
