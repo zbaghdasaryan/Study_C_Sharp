@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "try_catch", "try_catch\try_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator try catch", "Calculator try catch\Calculator try catch.csproj", "{7A83378A-A0A0-4DA2-BB7B-9A0B6CDCB3EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try catch task 2", "Try catch task 2\Try catch task 2.csproj", "{37DDC39A-7630-4484-B254-83D3F73637BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{7A83378A-A0A0-4DA2-BB7B-9A0B6CDCB3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A83378A-A0A0-4DA2-BB7B-9A0B6CDCB3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A83378A-A0A0-4DA2-BB7B-9A0B6CDCB3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DDC39A-7630-4484-B254-83D3F73637BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DDC39A-7630-4484-B254-83D3F73637BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DDC39A-7630-4484-B254-83D3F73637BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DDC39A-7630-4484-B254-83D3F73637BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
