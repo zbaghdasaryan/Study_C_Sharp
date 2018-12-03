@@ -55,7 +55,7 @@ namespace Delegat_Task_2
             }
             Console.WriteLine(new string('-', 30));
             if (op != null)
-                Console.WriteLine(op(a, b));
+                Console.WriteLine("{0,-12:#.###}{1,-12:#.###}", op(a, b), op(a, b));
             Console.ReadKey();
         }
     }
