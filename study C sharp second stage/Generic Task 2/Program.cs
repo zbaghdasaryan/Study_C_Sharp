@@ -34,8 +34,9 @@ namespace Generics
 
         public TYPE3 Variable3
         {
-            get { return this.variable3;}
-            set {this.variable3 = value; }
+            get { return this.variable3; }
+            set { this.variable3 = value; }
+        }
     }
 
     class Program
@@ -43,13 +44,13 @@ namespace Generics
         static void Main()
         {
             MyGenerics<int, int, int> instance1 = new MyGenerics<int, int, int>(1, 2, 20);
-            Console.WriteLine(instance1.Variable1 + instance1.Variable2);
+            Console.WriteLine(instance1.Variable1 + instance1.Variable2+instance1.Variable3);
 
             MyGenerics<string, int, double> instance2 = new MyGenerics<string, int, double>("Number ", 1, 20.1);
-            Console.WriteLine(instance2.Variable1 + instance2.Variable2);
+            Console.WriteLine(instance2.Variable1 + instance2.Variable2 + instance2.Variable3);
 
             MyGenerics<string, string, byte> instance3 = new MyGenerics<string, string, byte>("Hello ", "World",8);
-            Console.WriteLine(instance3.Variable1 + instance3.Variable2);
+            Console.WriteLine(instance3.Variable1 + instance3.Variable2+instance3.Variable3);
 
             // Delay.
             Console.ReadKey();
