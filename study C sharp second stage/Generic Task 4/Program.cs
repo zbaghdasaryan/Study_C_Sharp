@@ -12,9 +12,9 @@ namespace Generics
 
     class Program
     {
-        public static int Add(int i)
+        public static string Add(int i)
         {
-            return ++i;
+            return "add string "+i.ToString();
         }
 
         public static string Concatenation(string s)
@@ -25,8 +25,8 @@ namespace Generics
 
         static void Main()
         {
-            MyDelegate<int, int> myDelegate1 = new MyDelegate<int, int>(Add);
-            int i = myDelegate1.Invoke(1);
+            MyDelegate<int, string> myDelegate1 = new MyDelegate<int, string>(Add);
+            string i = myDelegate1(1);
            
             Console.WriteLine(i);
 
