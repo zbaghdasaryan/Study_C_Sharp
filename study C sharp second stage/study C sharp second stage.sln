@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try catch task 2", "Try cat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Task 1", "Generic Task 1\Generic Task 1.csproj", "{26EC4FF3-375A-48FB-89F2-A798A61F5CD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Task 2", "Generic Task 2\Generic Task 2.csproj", "{A9F8F9F5-EA57-4F7E-ABE5-CCCD16C9CC9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{26EC4FF3-375A-48FB-89F2-A798A61F5CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26EC4FF3-375A-48FB-89F2-A798A61F5CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26EC4FF3-375A-48FB-89F2-A798A61F5CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F8F9F5-EA57-4F7E-ABE5-CCCD16C9CC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F8F9F5-EA57-4F7E-ABE5-CCCD16C9CC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F8F9F5-EA57-4F7E-ABE5-CCCD16C9CC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F8F9F5-EA57-4F7E-ABE5-CCCD16C9CC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
