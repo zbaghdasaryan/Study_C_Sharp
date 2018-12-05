@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Task 3", "Generic T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Task 4", "Generic Task 4\Generic Task 4.csproj", "{1EF589DC-7231-4635-83B9-65979EF7AB0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert String", "Convert String\Convert String.csproj", "{48D18B05-0D08-4150-B5E6-C7B5F6F28861}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{1EF589DC-7231-4635-83B9-65979EF7AB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF589DC-7231-4635-83B9-65979EF7AB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EF589DC-7231-4635-83B9-65979EF7AB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D18B05-0D08-4150-B5E6-C7B5F6F28861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D18B05-0D08-4150-B5E6-C7B5F6F28861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D18B05-0D08-4150-B5E6-C7B5F6F28861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D18B05-0D08-4150-B5E6-C7B5F6F28861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
