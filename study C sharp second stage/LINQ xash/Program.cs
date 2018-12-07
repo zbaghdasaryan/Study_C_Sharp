@@ -12,13 +12,31 @@ namespace LINQ_xash
         
         static void Main(string[] args)
         {
-            Console.WriteLine("xash utelu amisa hamarvum");
-            Console.WriteLine();
-            var xashuteluamis = amisner.Where(x => x.Contains("r")).Select(x=>x.ToUpper());
-
+            Console.WriteLine("xash utelu amisner en hamarvum\n");
+            var xashuteluamis = amisner.Where(x => x.Contains("r")).Select(x=>x);
+            
             foreach (var amis in xashuteluamis)
             {
-                Console.WriteLine(amis);              
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine(amis);
+                Console.ForegroundColor = ConsoleColor.Gray;
+            }
+            bool flag = true;
+            foreach (var itam in xashuteluamis)
+            {
+                int tt = Array.IndexOf(amisner, itam);
+                int yy = DateTime.Now.Month;
+                if (Array.IndexOf(amisner, itam) + 1 == DateTime.Now.Month)
+                {
+                    Console.WriteLine("\nxash utelu amisa");
+                    flag = !flag;
+                    break;
+                }
+            }
+            if (flag)
+            {
+           
+                Console.WriteLine("\nxash utelu amis chi");
             }
             Console.ReadKey();
            
