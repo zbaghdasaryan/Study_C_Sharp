@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ IEnumerable", "LINQ IE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ xash", "LINQ xash\LINQ xash.csproj", "{8A38C2E5-21F7-4EB5-A379-2D9A714A453D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ Task 9", "LINQ Task 9\LINQ Task 9.csproj", "{B0A3D64D-AB41-4EE7-84E6-ECC16C37D31E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{8A38C2E5-21F7-4EB5-A379-2D9A714A453D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A38C2E5-21F7-4EB5-A379-2D9A714A453D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A38C2E5-21F7-4EB5-A379-2D9A714A453D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A3D64D-AB41-4EE7-84E6-ECC16C37D31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A3D64D-AB41-4EE7-84E6-ECC16C37D31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A3D64D-AB41-4EE7-84E6-ECC16C37D31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A3D64D-AB41-4EE7-84E6-ECC16C37D31E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
