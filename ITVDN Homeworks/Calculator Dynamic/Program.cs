@@ -38,7 +38,9 @@ namespace Calculator_Dynamic
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator();
+
             int firstNumber = 20, secondNumber = 30;
+
             Console.WriteLine("{0} + {1} = {2}", firstNumber, secondNumber, calculator.Add(firstNumber, secondNumber));
             Console.WriteLine("{0} - {1} = {2}", firstNumber, secondNumber, calculator.Sub(firstNumber, secondNumber));
             Console.WriteLine("{0} * {1} = {2}", firstNumber, secondNumber, calculator.Mult(firstNumber, secondNumber));

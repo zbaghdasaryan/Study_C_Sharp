@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegat Task 2", "Delegat T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator Dynamic", "Calculator Dynamic\Calculator Dynamic.csproj", "{24CA71F5-FDAF-4EBE-86DD-8ACB40ABCB55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ car", "LINQ car\LINQ car.csproj", "{6CECFFFE-816B-43CB-B801-1E2DB65BA886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{24CA71F5-FDAF-4EBE-86DD-8ACB40ABCB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24CA71F5-FDAF-4EBE-86DD-8ACB40ABCB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24CA71F5-FDAF-4EBE-86DD-8ACB40ABCB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CECFFFE-816B-43CB-B801-1E2DB65BA886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CECFFFE-816B-43CB-B801-1E2DB65BA886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CECFFFE-816B-43CB-B801-1E2DB65BA886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CECFFFE-816B-43CB-B801-1E2DB65BA886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
