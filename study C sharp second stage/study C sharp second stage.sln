@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator Matrix", "Operator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Class Task 1", "Abstract Class Task 1\Abstract Class Task 1.csproj", "{DFC5201B-73D8-490D-9B58-E812ED8D114C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Class Task 2", "Abstract Class Task 2\Abstract Class Task 2.csproj", "{9F395513-E3B8-4F40-9A76-D369FB1A38DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{DFC5201B-73D8-490D-9B58-E812ED8D114C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC5201B-73D8-490D-9B58-E812ED8D114C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFC5201B-73D8-490D-9B58-E812ED8D114C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F395513-E3B8-4F40-9A76-D369FB1A38DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F395513-E3B8-4F40-9A76-D369FB1A38DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F395513-E3B8-4F40-9A76-D369FB1A38DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F395513-E3B8-4F40-9A76-D369FB1A38DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
