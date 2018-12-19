@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Class Task 3", "Ab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface Task 1", "Interface Task 1\Interface Task 1.csproj", "{75883A46-B4C8-4018-AB78-7A346AA3A25D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{3C6DCD52-A70F-4329-A9E3-21B17E6E57FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{75883A46-B4C8-4018-AB78-7A346AA3A25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75883A46-B4C8-4018-AB78-7A346AA3A25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75883A46-B4C8-4018-AB78-7A346AA3A25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6DCD52-A70F-4329-A9E3-21B17E6E57FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6DCD52-A70F-4329-A9E3-21B17E6E57FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6DCD52-A70F-4329-A9E3-21B17E6E57FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6DCD52-A70F-4329-A9E3-21B17E6E57FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
