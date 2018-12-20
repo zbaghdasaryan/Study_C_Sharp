@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "study C shatp third stage",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{481D9A40-DBFB-4778-BF22-39AF3447E357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\ArrayList.csproj", "{445E9170-3BC3-4FCB-9EBA-B387B9667089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{481D9A40-DBFB-4778-BF22-39AF3447E357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{481D9A40-DBFB-4778-BF22-39AF3447E357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{481D9A40-DBFB-4778-BF22-39AF3447E357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445E9170-3BC3-4FCB-9EBA-B387B9667089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445E9170-3BC3-4FCB-9EBA-B387B9667089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445E9170-3BC3-4FCB-9EBA-B387B9667089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445E9170-3BC3-4FCB-9EBA-B387B9667089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
