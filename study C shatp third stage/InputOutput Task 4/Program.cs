@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
 // Информация о дисках. Удаление директорий.
 
@@ -9,8 +10,10 @@ namespace InputOutput
     {
         static void Main()
         {
+            Console.OutputEncoding = Encoding.UTF8;
             // Выводим информацию о дисках.
             string[] drives = Directory.GetLogicalDrives();
+            
             Console.WriteLine("Имеющиеся диски:");
 
             foreach (string drive in drives)
