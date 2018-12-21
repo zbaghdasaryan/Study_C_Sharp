@@ -12,7 +12,7 @@ namespace InputOutput
     {
         static void Main()
         {
-            var directory = new DirectoryInfo(@".");
+            var directory = new DirectoryInfo(@"D:\");
 
 
             // Проверка на существование указанной директории.
