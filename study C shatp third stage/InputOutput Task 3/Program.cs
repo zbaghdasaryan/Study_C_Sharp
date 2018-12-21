@@ -10,7 +10,7 @@ namespace InputOutput
         static void Main()
         {
             var directory = new DirectoryInfo(@".");
-            Console.WriteLine(directory.FullName);
+            //Console.WriteLine(directory.FullName);
             // Создание в TESTDIR новых подкаталогов.
             if (directory.Exists)
             {
