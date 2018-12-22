@@ -26,18 +26,39 @@ namespace HomeWork1
             Console.ForegroundColor = ConsoleColor.Gray;
 
             Console.Write("Select Disc :");
-            string disc = Console.ReadLine().ToUpper();
-            string directory = disc + ":\\";
+            //string disc = Console.ReadLine().ToUpper();
+            //string directory = disc + ":\\";
 
-            if (drives.Contains(directory))
-                GetInfoAboutDiskFiles(directory);
-            else
+            //while (true)
+            //{
+            //    if (drives.Contains(Console.ReadLine()))
+            //    {
+            //        GetInfoAboutDiskFiles("");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(" tenc Driv chka");
+            //    }
+            //}
+            while (true)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("choose one of the available disks");
-                Console.ForegroundColor = ConsoleColor.Gray;
-            }
-            Console.ReadKey();
+                string disc = Console.ReadLine().ToUpper();
+                string directory = disc + ":\\";
+
+                if (drives.Contains(directory))
+                    GetInfoAboutDiskFiles(directory);
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("\nWARRNING ! ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("you chose wrong disks, please try again\n");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.ReadKey();
+                }
+            }         
+                
+            
         }
         public static void GetInfoAboutDiskFiles(string directory)
         {
