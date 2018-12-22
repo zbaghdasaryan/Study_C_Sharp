@@ -23,7 +23,7 @@ namespace CreateString
             string s4 = 5.ToString();
             Console.WriteLine(s4);
             //"1 + 2 = 3"
-            string s5 = String.Format("{0} + {1} = {2}", 1, 2, 1 + 2);
+            string s5 = string.Format("{0} + {1} = {2}", 1, 2, 1 + 2);
             Console.WriteLine(s5);
             Console.ReadKey();
         }
