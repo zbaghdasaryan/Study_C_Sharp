@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder Task 1", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder_PerformanceTest", "StringBuilder_PerformanceTest\StringBuilder_PerformanceTest.csproj", "{239DE5C8-DE20-4244-B2E5-1D516FEC287D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions Task 1", "RegularExpressions Task 1\RegularExpressions Task 1.csproj", "{652ED339-DC7E-4897-BCAE-DB4A577B2E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions Task 2", "RegularExpressions Task 2\RegularExpressions Task 2.csproj", "{449AF7F8-DF0D-4468-8B41-D40BABA2913D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{239DE5C8-DE20-4244-B2E5-1D516FEC287D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{239DE5C8-DE20-4244-B2E5-1D516FEC287D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{239DE5C8-DE20-4244-B2E5-1D516FEC287D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652ED339-DC7E-4897-BCAE-DB4A577B2E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652ED339-DC7E-4897-BCAE-DB4A577B2E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652ED339-DC7E-4897-BCAE-DB4A577B2E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652ED339-DC7E-4897-BCAE-DB4A577B2E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
