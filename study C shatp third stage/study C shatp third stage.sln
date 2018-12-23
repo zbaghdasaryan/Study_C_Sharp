@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions Task 1",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions Task 2", "RegularExpressions Task 2\RegularExpressions Task 2.csproj", "{449AF7F8-DF0D-4468-8B41-D40BABA2913D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions Task 3", "RegularExpressions Task 3\RegularExpressions Task 3.csproj", "{FD107E86-07FA-4CBF-9CD4-2C689867BEE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449AF7F8-DF0D-4468-8B41-D40BABA2913D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD107E86-07FA-4CBF-9CD4-2C689867BEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD107E86-07FA-4CBF-9CD4-2C689867BEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD107E86-07FA-4CBF-9CD4-2C689867BEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD107E86-07FA-4CBF-9CD4-2C689867BEE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
