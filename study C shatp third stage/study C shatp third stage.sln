@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions Task 3",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replace", "Replace\Replace.csproj", "{4E3E512A-252C-4FB7-A6F2-5F4310B9538B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork 2", "HomeWork 2\HomeWork 2.csproj", "{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{4E3E512A-252C-4FB7-A6F2-5F4310B9538B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E3E512A-252C-4FB7-A6F2-5F4310B9538B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E3E512A-252C-4FB7-A6F2-5F4310B9538B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
