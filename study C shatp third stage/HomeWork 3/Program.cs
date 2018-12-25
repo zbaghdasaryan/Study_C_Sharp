@@ -25,8 +25,9 @@ namespace brackets
             MatchCollection floatNumberCollection = Regex.Matches(input, pattern);
 
             foreach (var item in floatNumberCollection)
-                Console.WriteLine(item);
-
+            {                
+                Console.WriteLine(item.ToString().Substring(1, item.ToString().Length - 2));
+            }
             Console.ReadKey();
         }
     }
