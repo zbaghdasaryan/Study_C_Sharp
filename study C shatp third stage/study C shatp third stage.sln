@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replace", "Replace\Replace.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork 2", "HomeWork 2\HomeWork 2.csproj", "{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork 3", "HomeWork 3\HomeWork 3.csproj", "{B28869E7-98B0-462C-8B6D-2267AF5933CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F78D137-78BF-4D1D-B94A-789F3EEE88AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28869E7-98B0-462C-8B6D-2267AF5933CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28869E7-98B0-462C-8B6D-2267AF5933CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28869E7-98B0-462C-8B6D-2267AF5933CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28869E7-98B0-462C-8B6D-2267AF5933CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
