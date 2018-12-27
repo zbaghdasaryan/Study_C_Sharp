@@ -10,6 +10,7 @@ namespace study_C_sharp_first_stage
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
