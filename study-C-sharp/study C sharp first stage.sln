@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is it factorial", "Is it fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldier", "Soldier\Soldier.csproj", "{31C912E7-CA7B-4F23-A577-094F18F2F3BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +425,10 @@ Global
 		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4A9ECE5-60A3-40BD-BF56-BFEB5CD692AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C912E7-CA7B-4F23-A577-094F18F2F3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C912E7-CA7B-4F23-A577-094F18F2F3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C912E7-CA7B-4F23-A577-094F18F2F3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C912E7-CA7B-4F23-A577-094F18F2F3BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
