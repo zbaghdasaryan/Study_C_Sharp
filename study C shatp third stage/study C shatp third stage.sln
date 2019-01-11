@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork 3", "HomeWork 3\Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeTest 1", "TypeTest 1\TypeTest 1.csproj", "{D14F89E5-BD9C-4296-AFE5-32549549323A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_TypeTest", "E:\Shevchuk\ITVDN\03 [ITVDN] C# Professional\[ITVDN] C# Professional\006 - Рефлексия\006 - Рефлексия\001 - Class Type\002_TypeTest\002_TypeTest.csproj", "{CD67590D-9ADB-4FC3-BC41-140B97170F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{D14F89E5-BD9C-4296-AFE5-32549549323A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14F89E5-BD9C-4296-AFE5-32549549323A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14F89E5-BD9C-4296-AFE5-32549549323A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD67590D-9ADB-4FC3-BC41-140B97170F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD67590D-9ADB-4FC3-BC41-140B97170F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD67590D-9ADB-4FC3-BC41-140B97170F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD67590D-9ADB-4FC3-BC41-140B97170F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
