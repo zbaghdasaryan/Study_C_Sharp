@@ -11,13 +11,13 @@ namespace Reflection_Task_1
     {
         static void Main(string[] args)
         {
-            Type t = Type.GetType("SomeClass");
+            Type t = Type.GetType("Reflection_Task_1.SomeClass");
             ShowMetaData(t);
         }
 
         static void ShowMetaData(Type t)
         {
-           
+
             FieldInfo[] F = t.GetFields();
             foreach (FieldInfo info in F)
                 Console.WriteLine(info.Name);
@@ -50,7 +50,7 @@ namespace Reflection_Task_1
     }
     class SomeClass : BaseClass, ISomeInterfase
     {
-        int aaa;
+        public int aaa;
         public int Aaa
         {
             get { return aaa; }
