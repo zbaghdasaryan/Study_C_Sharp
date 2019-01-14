@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_TypeTest", "E:\Shevchuk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection Task 1", "Reflection Task 1\Reflection Task 1.csproj", "{CF540CB2-74F1-474D-87EC-53533BAB20DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garbage Collector", "Garbage Collector\Garbage Collector.csproj", "{98E97395-1165-401B-8DA8-58CDF649AAA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{CF540CB2-74F1-474D-87EC-53533BAB20DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF540CB2-74F1-474D-87EC-53533BAB20DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF540CB2-74F1-474D-87EC-53533BAB20DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E97395-1165-401B-8DA8-58CDF649AAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E97395-1165-401B-8DA8-58CDF649AAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E97395-1165-401B-8DA8-58CDF649AAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E97395-1165-401B-8DA8-58CDF649AAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
