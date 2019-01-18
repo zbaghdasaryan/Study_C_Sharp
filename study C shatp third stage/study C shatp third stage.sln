@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Join Task 2", "Threa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Join Task 3", "Thread Join Task 3\Thread Join Task 3.csproj", "{C4F724F3-EBD4-4117-9560-52C1149E0653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Abort", "Thread Abort\Thread Abort.csproj", "{007C556F-EB70-43DE-923E-504409D9D8DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{C4F724F3-EBD4-4117-9560-52C1149E0653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F724F3-EBD4-4117-9560-52C1149E0653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F724F3-EBD4-4117-9560-52C1149E0653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007C556F-EB70-43DE-923E-504409D9D8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007C556F-EB70-43DE-923E-504409D9D8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007C556F-EB70-43DE-923E-504409D9D8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007C556F-EB70-43DE-923E-504409D9D8DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

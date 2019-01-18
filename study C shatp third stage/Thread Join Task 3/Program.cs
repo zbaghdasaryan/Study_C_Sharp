@@ -6,7 +6,7 @@ namespace ThreadSampleMul
     class Program
     {
         // Общая переменная счетчик.
-        //   [ThreadStatic] //TODO Снять комментарий
+           [ThreadStatic] //TODO Снять комментарий
         public static int counter;
 
         // Рекурсивный запуск потоков.
