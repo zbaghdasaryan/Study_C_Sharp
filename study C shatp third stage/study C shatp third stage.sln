@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Task 6", "Thread Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Join", "Thread Join\Thread Join.csproj", "{17A805AC-BD2D-4690-8F60-9E02CC513ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Join Task 2", "Thread Join Task 2\Thread Join Task 2.csproj", "{9DFB5699-D102-47D5-8C25-C53E1955EA6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{17A805AC-BD2D-4690-8F60-9E02CC513ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A805AC-BD2D-4690-8F60-9E02CC513ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A805AC-BD2D-4690-8F60-9E02CC513ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFB5699-D102-47D5-8C25-C53E1955EA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFB5699-D102-47D5-8C25-C53E1955EA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFB5699-D102-47D5-8C25-C53E1955EA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFB5699-D102-47D5-8C25-C53E1955EA6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
