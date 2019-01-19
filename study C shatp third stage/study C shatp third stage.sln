@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread Abort", "Thread Abor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm_Procedure(sum)", "Algorithm_Procedure(sum)\Algorithm_Procedure(sum).csproj", "{6B59F5E9-64F4-4038-8126-9764A737EF22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm_Procedure(mult)", "Algorithm_Procedure(mult)\Algorithm_Procedure(mult).csproj", "{A799D088-9001-4B86-BA02-4B9E6091BC00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{6B59F5E9-64F4-4038-8126-9764A737EF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B59F5E9-64F4-4038-8126-9764A737EF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B59F5E9-64F4-4038-8126-9764A737EF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
