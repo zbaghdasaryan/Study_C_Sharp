@@ -91,6 +91,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm_Procedure(sum)", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm_Procedure(mult)", "Algorithm_Procedure(mult)\Algorithm_Procedure(mult).csproj", "{A799D088-9001-4B86-BA02-4B9E6091BC00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm_Bubble sort", "Algorithm_Bubble sort\Algorithm_Bubble sort.csproj", "{7257BE89-FF63-4B72-84A3-C88C58981196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singly_List", "Singly_List\Singly_List.csproj", "{6D2AF2F9-BFAD-48C1-A433-58ED03F5818E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +277,14 @@ Global
 		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A799D088-9001-4B86-BA02-4B9E6091BC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7257BE89-FF63-4B72-84A3-C88C58981196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7257BE89-FF63-4B72-84A3-C88C58981196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7257BE89-FF63-4B72-84A3-C88C58981196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7257BE89-FF63-4B72-84A3-C88C58981196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2AF2F9-BFAD-48C1-A433-58ED03F5818E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2AF2F9-BFAD-48C1-A433-58ED03F5818E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2AF2F9-BFAD-48C1-A433-58ED03F5818E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2AF2F9-BFAD-48C1-A433-58ED03F5818E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
