@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doubly Linked List", "Doubl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Class", "List_Class\List_Class.csproj", "{56DBECC9-1AA2-4BF0-B32A-CF5DA56F285A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bubble_Sort", "Bubble_Sort\Bubble_Sort.csproj", "{55CE1A62-2645-4481-914F-1E193885CB9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{56DBECC9-1AA2-4BF0-B32A-CF5DA56F285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56DBECC9-1AA2-4BF0-B32A-CF5DA56F285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56DBECC9-1AA2-4BF0-B32A-CF5DA56F285A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CE1A62-2645-4481-914F-1E193885CB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CE1A62-2645-4481-914F-1E193885CB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CE1A62-2645-4481-914F-1E193885CB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CE1A62-2645-4481-914F-1E193885CB9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
