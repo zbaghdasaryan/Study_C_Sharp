@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Method_Search
+namespace Method_Add
 {
 
     class BinaryTreeNode<TNode> : IComparable<TNode> where TNode : IComparable<TNode>
@@ -44,7 +44,7 @@ namespace Method_Search
 
         private int _count;
 
-        #region Добавление нового узла в дерево
+        #region Добавление нового узла дерева
 
         public void Add(T value)
         {
@@ -105,56 +105,6 @@ namespace Method_Search
 
         #endregion
 
-        #region Поиск узла в дереве
-
-        // Метод Contains с помощью метода поиска FindWithParent определяется пренадлежит ли указанное значение дереву.
-
-        public bool Contains(T value)
-        {
-
-            BinaryTreeNode<T> parent;
-            return FindWithParent(value, out parent) != null;
-        }
-
-        // Метод FindWithParent возвращает первый найденный узел.
-        // Если значение не найдено, метод возвращает null.
-        // Так же возвращает родительский узел для найденного значения.
-
-        private BinaryTreeNode<T> FindWithParent(T value, out BinaryTreeNode<T> parent)
-        {
-            // Поиск значения в дереве.     
-
-            BinaryTreeNode<T> current = _head;
-            parent = null;
-
-            while (current != null)
-            {
-                int result = current.CompareTo(value);
-                if (result > 0)
-                {
-                    // Если искомое значение меньше значение текущего узла - переходим к левому потомку.             
-
-                    parent = current;
-                    current = current.Left;
-                }
-                else if (result < 0)
-                {
-                    // Если искомое значение больше значение текущего узла - переходим к правому потомку.
-
-                    parent = current;
-                    current = current.Right;
-                }
-                else
-                {
-                    // Искомый элемент найден             
-                    break;
-                }
-            }
-            return current;
-        }
-
-        #endregion
-
         #region Нумератор
 
         public IEnumerator<T> GetEnumerator()
@@ -169,6 +119,8 @@ namespace Method_Search
 
         #endregion
 
+        #region Количество узлов в дереве
+
         public int Count
         {
             get
@@ -177,6 +129,7 @@ namespace Method_Search
             }
         }
 
+        #endregion
     }
 
     class Program
@@ -184,18 +137,17 @@ namespace Method_Search
         static void Main(string[] args)
         {
 
-            BinaryTree<int> instance = new BinaryTree<int>();
+            BinaryTree<string> instance = new BinaryTree<string>();
 
-            instance.Add(8);    //                        8
-            instance.Add(5);    //                      /   \
-            instance.Add(12);   //                     5    12 
-            instance.Add(3);    //                    / \   / \  
-            instance.Add(7);    //                   3   7 10 15
-            instance.Add(10);   //
-            instance.Add(15);   //
+            instance.Add("8");    //                        8
+            instance.Add("5");    //                      /   \
+            instance.Add("12");   //                     5    12 
+            instance.Add("3");    //                    / \   / \  
+            instance.Add("7");    //                   3   7 10 15
+            instance.Add("10");   //
+            instance.Add("15");   //
 
-            Console.WriteLine("Дерево содержит узел со значением 12: {0}", instance.Contains(12));
-            Console.WriteLine("Дерево содержит узел со значением 14: {0}", instance.Contains(14));
+            Console.WriteLine("Количество узлов в дереве:{0}", instance.Count);
 
 
         }
