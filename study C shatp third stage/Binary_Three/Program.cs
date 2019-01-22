@@ -49,7 +49,7 @@ namespace Binary_tree
     class Program
     {
         static void Main(string[] args)
-        {                                                             //               5
+        {                                                            //               5
             BinaryTreeNode<int> Node1 = new BinaryTreeNode<int>(5);  //              / \
             BinaryTreeNode<int> Node2 = new BinaryTreeNode<int>(3);  //             /   \
             BinaryTreeNode<int> Node3 = new BinaryTreeNode<int>(8);  //            3     8
