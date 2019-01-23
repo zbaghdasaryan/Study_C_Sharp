@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Three_Method_Add", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Three_Method_Search", "Binary_Three_Method_Search\Binary_Three_Method_Search.csproj", "{58D89C1D-5565-417C-8EE8-4ED4E7FD3742}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Three_Remove_Method", "Binary_Three_Remove_Method\Binary_Three_Remove_Method.csproj", "{86377217-3993-4D34-A31A-2FE51BB447FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{58D89C1D-5565-417C-8EE8-4ED4E7FD3742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D89C1D-5565-417C-8EE8-4ED4E7FD3742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D89C1D-5565-417C-8EE8-4ED4E7FD3742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86377217-3993-4D34-A31A-2FE51BB447FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86377217-3993-4D34-A31A-2FE51BB447FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86377217-3993-4D34-A31A-2FE51BB447FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86377217-3993-4D34-A31A-2FE51BB447FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
