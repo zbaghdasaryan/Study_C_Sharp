@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Three_Method_Search"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Three_Remove_Method", "Binary_Three_Remove_Method\Binary_Three_Remove_Method.csproj", "{86377217-3993-4D34-A31A-2FE51BB447FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort_Bubble", "Sort_Bubble\Sort_Bubble.csproj", "{222B9263-4156-4456-AB4B-AF42FA1208B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +359,10 @@ Global
 		{86377217-3993-4D34-A31A-2FE51BB447FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86377217-3993-4D34-A31A-2FE51BB447FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86377217-3993-4D34-A31A-2FE51BB447FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222B9263-4156-4456-AB4B-AF42FA1208B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222B9263-4156-4456-AB4B-AF42FA1208B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222B9263-4156-4456-AB4B-AF42FA1208B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222B9263-4156-4456-AB4B-AF42FA1208B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
