@@ -11,7 +11,7 @@ namespace Insertion_Sort_2
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int[] array = new int[10];
+            int[] array = new int[3];
 
             for (int i = 0; i < array.Length; i++)
             {
