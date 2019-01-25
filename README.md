@@ -1,2 +1,6 @@
-# Study_C_sharp
- C sharp
+# Study C#
+<div align="left">
+<img src="https://user-images.githubusercontent.com/43417474/51752125-1fc80780-20d0-11e9-8d6a-e71c36813b3f.png" alt="Italian Trulli">
+
+</div>
+
