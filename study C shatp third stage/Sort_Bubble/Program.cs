@@ -9,16 +9,9 @@ namespace Sort_Bubble
 
     class Program
     {
-        int[] a = new int[4];
+        int[] a = new int[6] { 1, 4, 10, 6, 5, 3 };
 
-        public void generateArray()
-        {
-            Random r = new Random();
-            for (int i = 0; i < a.Length; i++)
-            {
-                a[i] = r.Next(1,10);
-            }
-        }
+        
         public void showArray()
         {
             for (int i = 0; i < a.Length; i++)
@@ -40,14 +33,13 @@ namespace Sort_Bubble
                         a[j] = temp;
                     }
                 }
-
             }
         }
 
         static void Main(string[] args)
         {
             Program sort = new Program();
-            sort.generateArray();
+           // sort.generateArray();
             sort.showArray();
             sort.bubbleSort();
             sort.showArray();
