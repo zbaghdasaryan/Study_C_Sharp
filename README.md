@@ -1,6 +1,9 @@
 # Study C#
 <div align="left">
-  Создание C#
+ <h1>
+ Создание C#
+  </h1>
+  
 <img src="https://user-images.githubusercontent.com/43417474/51752125-1fc80780-20d0-11e9-8d6a-e71c36813b3f.png" alt="Italian Trulli " height="100" align="right">
 
 </div>
