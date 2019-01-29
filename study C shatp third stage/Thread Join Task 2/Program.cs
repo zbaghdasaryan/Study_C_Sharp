@@ -32,7 +32,7 @@ namespace ThreadSampleJoin
             WriteChar('2', 80, ConsoleColor.Blue);
 
             // Создание третичного потока.
-            var thread = new Thread(Method3);
+            Thread thread = new Thread(Method3);
             thread.Start();
             //   thread.Join();
 
@@ -48,7 +48,7 @@ namespace ThreadSampleJoin
             WriteChar('1', 80, ConsoleColor.Green);
 
             // Создание вторичного потока.
-            var thread = new Thread(Method2);
+            Thread thread = new Thread(Method2);
             thread.Start();
             //   thread.Join();
 

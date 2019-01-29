@@ -32,7 +32,7 @@ namespace ThreadSample
             thread.Start();
             Console.WriteLine(Thread.CurrentThread.GetHashCode());
             // Ожидание первичным потоком, завершения работы вторичного потока.
-            thread.Join(); //TODO Снять комментарий.
+            //thread.Join(); //TODO Снять комментарий.
 
             Console.ForegroundColor = ConsoleColor.Green;
 
