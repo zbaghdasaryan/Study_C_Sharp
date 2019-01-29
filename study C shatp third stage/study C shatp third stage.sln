@@ -125,6 +125,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bubble Sort_2", "Bubble Sor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insertion Sort 2", "Insertion Sort 2\Insertion Sort 2.csproj", "{FB8E22F8-D077-418C-9B63-8AC868213A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Companes", "JSON_Companes\JSON_Companes.csproj", "{26C0C8A7-D22A-41F5-947D-3BBBB8EF1749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{6BA953C7-988F-4CD0-9378-A5DF2EC8A97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +379,14 @@ Global
 		{FB8E22F8-D077-418C-9B63-8AC868213A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB8E22F8-D077-418C-9B63-8AC868213A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB8E22F8-D077-418C-9B63-8AC868213A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C0C8A7-D22A-41F5-947D-3BBBB8EF1749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C0C8A7-D22A-41F5-947D-3BBBB8EF1749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C0C8A7-D22A-41F5-947D-3BBBB8EF1749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C0C8A7-D22A-41F5-947D-3BBBB8EF1749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA953C7-988F-4CD0-9378-A5DF2EC8A97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA953C7-988F-4CD0-9378-A5DF2EC8A97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA953C7-988F-4CD0-9378-A5DF2EC8A97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA953C7-988F-4CD0-9378-A5DF2EC8A97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
