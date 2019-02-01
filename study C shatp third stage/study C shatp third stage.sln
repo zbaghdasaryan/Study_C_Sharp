@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asinc 2", "Asinc 2\Asinc 2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON serialization", "JSON serialization\JSON serialization.csproj", "{0181C632-6E5F-4452-9BAA-39B3B03F3D2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Site_JSON_Serialize", "Site_JSON_Serialize\Site_JSON_Serialize.csproj", "{9F62606B-9A45-4B76-9075-D3074D0067C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{0181C632-6E5F-4452-9BAA-39B3B03F3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0181C632-6E5F-4452-9BAA-39B3B03F3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0181C632-6E5F-4452-9BAA-39B3B03F3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F62606B-9A45-4B76-9075-D3074D0067C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F62606B-9A45-4B76-9075-D3074D0067C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F62606B-9A45-4B76-9075-D3074D0067C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F62606B-9A45-4B76-9075-D3074D0067C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
