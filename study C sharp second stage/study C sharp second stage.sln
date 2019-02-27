@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Task 1", "Class Task 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield 1", "Yield 1\Yield 1.csproj", "{BC586E27-026C-4CC1-B720-52CEEE393090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield2", "Yield2\Yield2.csproj", "{3C7A869A-09B1-4976-A1B3-818AA66B0603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{BC586E27-026C-4CC1-B720-52CEEE393090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC586E27-026C-4CC1-B720-52CEEE393090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC586E27-026C-4CC1-B720-52CEEE393090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7A869A-09B1-4976-A1B3-818AA66B0603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7A869A-09B1-4976-A1B3-818AA66B0603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7A869A-09B1-4976-A1B3-818AA66B0603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7A869A-09B1-4976-A1B3-818AA66B0603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
