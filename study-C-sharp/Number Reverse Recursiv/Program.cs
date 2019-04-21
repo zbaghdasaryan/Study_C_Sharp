@@ -19,7 +19,7 @@ namespace Number_Revers_Recursion
             string t = Console.ReadLine();
             long n = long.Parse(t);
 
-            Console.WriteLine(reverseNumber(n,0));
+            Console.WriteLine(reverseNumber(n,5));
             Console.ReadKey();
         }     
         static long reverseNumber(long n, long i)
