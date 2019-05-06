@@ -11,15 +11,7 @@ namespace ConsoleApplication3
     {
         // Метод переставляе местами две ячейки массива
 
-        static void Swap(int[] items, int left, int right)
-        {
-            if (left != right)
-            {
-                int temp = items[left];
-                items[left] = items[right];
-                items[right] = temp;
-            }
-        }
+        
 
         // Метод быстрой сортировки
 
