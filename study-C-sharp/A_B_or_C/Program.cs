@@ -31,6 +31,7 @@ namespace A_B_or_C
         {
             A ac= new C();
             Console.WriteLine(ac.Print());
+            Console.ReadKey();
         }
     }
 }

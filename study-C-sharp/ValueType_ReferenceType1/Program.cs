@@ -5,12 +5,12 @@ namespace ValueType_ReferenceType1
     struct S
     {
         public int x;
+       
     }
 
     class C
     {
         public int x;
-
     }
 
     class Program
@@ -46,8 +46,15 @@ namespace ValueType_ReferenceType1
             Console.WriteLine("c1.x = " + c1.x);
             Console.WriteLine("c2.x = " + c2.x);
 
-
+            object o = s2.x;
+            Console.WriteLine(o);
+            string name = "zzz";
+            string name1 = name;
+            name = "aaa";
+            Console.WriteLine(name1);
             Console.ReadLine();
+
+            
         }
     }
 }
