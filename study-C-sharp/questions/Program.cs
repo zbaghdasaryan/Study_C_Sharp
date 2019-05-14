@@ -44,27 +44,48 @@ namespace Questions
             //    return i;
 
             //Какие из следующих вариантов представляют правильный способ вызова данного метода(правильных вариантов может быть несколько):
-        //    Display();
-   
-        //    Display(1);
+            //    Display();
 
-        //    Display(1, 2);
+            //    Display(1);
 
-        //    Display(1, 2, 3);
+            //    Display(1, 2);
 
-        //    Display(new int[] { 1, 2, 3 });
-        //}
-        //static void Display(params int[] numbers)
-        //{
-        //    int result = 0;
-        //    for (int i = 0; i < numbers.Length; i++)
-        //    {
-        //        result += numbers[i];
-        //    }
-        //    Console.WriteLine(result);
+            //    Display(1, 2, 3);
+
+            //    Display(new int[] { 1, 2, 3 });
+            //}
+            //static void Display(params int[] numbers)
+            //{
+            //    int result = 0;
+            //    for (int i = 0; i < numbers.Length; i++)
+            //    {
+            //        result += numbers[i];
+            //    }
+            //    Console.WriteLine(result);
+            Person person = new Person("Tom", 31, "tom@gmail.com");
+            Console.WriteLine(person.name+" "+ person.age+" "+ person.email);
+            Console.ReadKey();
         }
 
+        class Person
+        {
+            public string name = "Ben";
+            public int age = 18;
+            public string email = "ben@gmail.com";
 
+            public Person(string name)
+            {
+                this.name = name;
+            }
+            public Person(string name, int age) : this(name)
+            {
+                this.age = age;
+            }
+            public Person(string name, int age, string email) : this("Bob", age)
+            {
+                this.email = email;
+            }
+        }
     }
 }
 
