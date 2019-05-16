@@ -62,30 +62,92 @@ namespace Questions
             //        result += numbers[i];
             //    }
             //    Console.WriteLine(result);
-            Person person = new Person("Tom", 31, "tom@gmail.com");
-            Console.WriteLine(person.name+" "+ person.age+" "+ person.email);
+            //Person person = new Person("Tom", 31, "tom@gmail.com");
+            //Console.WriteLine(person.name+" "+ person.age+" "+ person.email);
+            //Console.ReadKey();
+            //B obj1 = new A();
+            //obj1.Foo();
+
+            //B obj2 = new B();
+            //obj2.Foo();
+
+            //A obj3 = new B();
+            //obj3.Foo();
+            //int i = 1;
+            //object obj = i;
+            //++i;
+            //Console.WriteLine(i);
+            //Console.WriteLine(obj);
+            //Console.WriteLine((short)obj);
+            //string s1 = string.Format("abccba");
+            //string s2 = "abc" + "cba";
+            //string s3 = "abccba";
+
+            //Console.WriteLine(s1 == s2);
+            //Console.WriteLine(s1.GetHashCode());
+            //Console.WriteLine(s2.GetHashCode());
+            //Console.WriteLine((object)s1 == (object)s2);
+            //Console.WriteLine((object)s1.GetHashCode());
+            //Console.WriteLine((object)s2.GetHashCode());
+            //Console.WriteLine(s2 == s3);
+            //Console.WriteLine(s2.GetHashCode());
+            //Console.WriteLine(s3.GetHashCode());
+            //Console.WriteLine((object)s2 == (object)s3);
+            Track track = new Track();
+            Auto auto = track;
+            auto.Move();
+
             Console.ReadKey();
         }
 
-        class Person
-        {
-            public string name = "Ben";
-            public int age = 18;
-            public string email = "ben@gmail.com";
+        //class Person
+        //{
+        //    public string name = "Ben";
+        //    public int age = 18;
+        //    public string email = "ben@gmail.com";
 
-            public Person(string name)
+        //    public Person(string name)
+        //    {
+        //        this.name = name;
+        //    }
+        //    public Person(string name, int age) : this(name)
+        //    {
+        //        this.age = age;
+        //    }
+        //    public Person(string name, int age, string email) : this("Bob", age)
+        //    {
+        //        this.email = email;
+        //    }
+        //}
+        //class A
+        //{
+        //    public virtual void Foo()
+        //    {
+        //        Console.Write("Class A");
+        //    }
+        //}
+        //class B : A
+        //{
+        //    public override void Foo()
+        //    {
+        //        Console.Write("Class B");
+        //    }
+        //}
+        class Auto
+        {
+            public virtual void Move()
             {
-                this.name = name;
-            }
-            public Person(string name, int age) : this(name)
-            {
-                this.age = age;
-            }
-            public Person(string name, int age, string email) : this("Bob", age)
-            {
-                this.email = email;
+                Console.WriteLine("Auto is moving");
             }
         }
+        class Track : Auto
+        {
+            public override void Move()
+            {
+                Console.WriteLine("Track is moving");
+            }
+        }
+       
     }
 }
 
