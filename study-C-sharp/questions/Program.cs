@@ -79,30 +79,30 @@ namespace Questions
             //Console.WriteLine(i);
             //Console.WriteLine(obj);
             //Console.WriteLine((short)obj);
-            //string s1 = string.Format("abccba");
-            //string s2 = "abc" + "cba";
-            //string s3 = "abccba";
+            string s1 = string.Format("abccba");
+            string s2 = "abc" + "cba";
+            string s3 = "abccba";
 
-            //Console.WriteLine(s1 == s2);
-            //Console.WriteLine(s1.GetHashCode());
-            //Console.WriteLine(s2.GetHashCode());
-            //Console.WriteLine((object)s1 == (object)s2);
-            //Console.WriteLine((object)s1.GetHashCode());
-            //Console.WriteLine((object)s2.GetHashCode());
-            //Console.WriteLine(s2 == s3);
-            //Console.WriteLine(s2.GetHashCode());
-            //Console.WriteLine(s3.GetHashCode());
-            //Console.WriteLine((object)s2 == (object)s3);
+            Console.WriteLine(s1 == s2);
+            Console.WriteLine(s1.GetHashCode());
+            Console.WriteLine(s2.GetHashCode());
+            Console.WriteLine((object)s1 == (object)s2);
+            Console.WriteLine((object)s1.GetHashCode());
+            Console.WriteLine((object)s2.GetHashCode());
+            Console.WriteLine(s2 == s3);
+            Console.WriteLine(s2.GetHashCode());
+            Console.WriteLine(s3.GetHashCode());
+            Console.WriteLine((object)s2 == (object)s3);
             //Track track = new Track();
             //Auto auto = track;
             //auto.Move();
 
             //Console.ReadKey();
-            Message mes = new Message(Hello);
-            mes += Hi;
-            mes -= Hello;
-           // mes -= Hi;
-            mes();
+            // Message mes = new Message(Hello);
+            // mes += Hi;
+            // mes -= Hello;
+            //// mes -= Hi;
+            // mes();
             Console.Read();
         }
 
@@ -153,9 +153,9 @@ namespace Questions
         //        Console.WriteLine("Track is moving");
         //    }
         //}
-        delegate void Message();
-        private static void Hello() { Console.WriteLine("Hello"); }
-        private static void Hi() { Console.WriteLine("Hi"); }
+        //delegate void Message();
+        //private static void Hello() { Console.WriteLine("Hello"); }
+        //private static void Hi() { Console.WriteLine("Hi"); }
 
     }
 }
