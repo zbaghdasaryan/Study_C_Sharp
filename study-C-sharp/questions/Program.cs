@@ -93,11 +93,17 @@ namespace Questions
             //Console.WriteLine(s2.GetHashCode());
             //Console.WriteLine(s3.GetHashCode());
             //Console.WriteLine((object)s2 == (object)s3);
-            Track track = new Track();
-            Auto auto = track;
-            auto.Move();
+            //Track track = new Track();
+            //Auto auto = track;
+            //auto.Move();
 
-            Console.ReadKey();
+            //Console.ReadKey();
+            Message mes = new Message(Hello);
+            mes += Hi;
+            mes -= Hello;
+           // mes -= Hi;
+            mes();
+            Console.Read();
         }
 
         //class Person
@@ -133,21 +139,24 @@ namespace Questions
         //        Console.Write("Class B");
         //    }
         //}
-        class Auto
-        {
-            public virtual void Move()
-            {
-                Console.WriteLine("Auto is moving");
-            }
-        }
-        class Track : Auto
-        {
-            public override void Move()
-            {
-                Console.WriteLine("Track is moving");
-            }
-        }
-       
+        //class Auto
+        //{
+        //    public virtual void Move()
+        //    {
+        //        Console.WriteLine("Auto is moving");
+        //    }
+        //}
+        //class Track : Auto
+        //{
+        //    public override void Move()
+        //    {
+        //        Console.WriteLine("Track is moving");
+        //    }
+        //}
+        delegate void Message();
+        private static void Hello() { Console.WriteLine("Hello"); }
+        private static void Hi() { Console.WriteLine("Hi"); }
+
     }
 }
 
