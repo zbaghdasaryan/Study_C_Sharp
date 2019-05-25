@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Questions_2
 {
+
     class Program
     {
         static void Main(string[] args)
