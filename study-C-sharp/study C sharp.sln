@@ -151,7 +151,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueType_ReferenceType2", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "questions", "questions\questions.csproj", "{D3B44E2C-69C1-4BF2-807F-1580227519F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions 2", "Questions 2\Questions 2.csproj", "{6E524BD3-4740-4FE0-B31C-80E29766DD08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions 2", "Questions 2\Questions 2.csproj", "{6E524BD3-4740-4FE0-B31C-80E29766DD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeAdd", "BinaryTreeAdd\BinaryTreeAdd.csproj", "{275171BB-AB3B-4605-B23C-718C4247CF60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -459,6 +461,10 @@ Global
 		{6E524BD3-4740-4FE0-B31C-80E29766DD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E524BD3-4740-4FE0-B31C-80E29766DD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E524BD3-4740-4FE0-B31C-80E29766DD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275171BB-AB3B-4605-B23C-718C4247CF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275171BB-AB3B-4605-B23C-718C4247CF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275171BB-AB3B-4605-B23C-718C4247CF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275171BB-AB3B-4605-B23C-718C4247CF60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
