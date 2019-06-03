@@ -21,8 +21,8 @@ namespace EnumType
     {
         static void Main(string[] args)
         {
-            //EnumType x = EnumType.Five;
-            //EnumType y = EnumType.Four;
+            EnumType x = EnumType.Five;
+            EnumType y = EnumType.Four;
 
             Array array = Enum.GetValues(typeof(EnumType));
             for (int i = 0; i < array.Length; i++)
