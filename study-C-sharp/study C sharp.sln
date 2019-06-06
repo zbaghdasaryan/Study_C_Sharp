@@ -155,7 +155,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions 2", "Questions 2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeAdd", "BinaryTreeAdd\BinaryTreeAdd.csproj", "{275171BB-AB3B-4605-B23C-718C4247CF60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumType", "EnumType\EnumType.csproj", "{7394951E-AF88-46E0-A077-A2984DB86FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumType", "EnumType\EnumType.csproj", "{7394951E-AF88-46E0-A077-A2984DB86FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try_Catch_Finaly", "Try_Catch_Finaly\Try_Catch_Finaly.csproj", "{033F0066-AFDE-458E-A4A7-633249C86687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +473,10 @@ Global
 		{7394951E-AF88-46E0-A077-A2984DB86FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7394951E-AF88-46E0-A077-A2984DB86FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7394951E-AF88-46E0-A077-A2984DB86FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033F0066-AFDE-458E-A4A7-633249C86687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033F0066-AFDE-458E-A4A7-633249C86687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033F0066-AFDE-458E-A4A7-633249C86687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033F0066-AFDE-458E-A4A7-633249C86687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
