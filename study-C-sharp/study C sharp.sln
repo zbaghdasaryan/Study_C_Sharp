@@ -157,7 +157,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeAdd", "BinaryTree
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumType", "EnumType\EnumType.csproj", "{7394951E-AF88-46E0-A077-A2984DB86FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try_Catch_Finaly", "Try_Catch_Finaly\Try_Catch_Finaly.csproj", "{033F0066-AFDE-458E-A4A7-633249C86687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try_Catch_Finaly", "Try_Catch_Finaly\Try_Catch_Finaly.csproj", "{033F0066-AFDE-458E-A4A7-633249C86687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread_Join_1", "Thread_Join_1\Thread_Join_1.csproj", "{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +479,10 @@ Global
 		{033F0066-AFDE-458E-A4A7-633249C86687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033F0066-AFDE-458E-A4A7-633249C86687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033F0066-AFDE-458E-A4A7-633249C86687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
