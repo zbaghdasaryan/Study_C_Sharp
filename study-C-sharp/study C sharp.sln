@@ -159,7 +159,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumType", "EnumType\EnumTy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try_Catch_Finaly", "Try_Catch_Finaly\Try_Catch_Finaly.csproj", "{033F0066-AFDE-458E-A4A7-633249C86687}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread_Join_1", "Thread_Join_1\Thread_Join_1.csproj", "{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread_Join_1", "Thread_Join_1\Thread_Join_1.csproj", "{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread_Join_2", "Thread_Join_2\Thread_Join_2.csproj", "{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -483,6 +485,10 @@ Global
 		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
