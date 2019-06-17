@@ -6,9 +6,32 @@ namespace Questions_2
 
     class Program
     {
-        static void Main(string[] args)
+        public int SomeMethod(int a, int b)
+
         {
 
+            return a + b;
+
+        }
+         
+        public int SomeMethod( int b)
+
+        {
+
+            return b;
+
+        }
+
+        static void Main(string[] args)
+        {
+            int sum = 0;
+            for (int i = 0; i < 3; i++)
+            {
+                sum += i;
+                Console.WriteLine("Sum of " + i + " numbers is " + sum);
+            }
+
+            
             //B obj2 = new B();
             //obj2.Foo();
 
@@ -105,4 +128,3 @@ namespace Questions_2
     //        return dispose;
     //    }
     //}
-}
