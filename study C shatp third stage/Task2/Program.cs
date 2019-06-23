@@ -12,7 +12,7 @@ namespace Task2
             for (int i = 0; i < 100; i++)
             {
                 Thread.Sleep(100);
-               
+                Console.Write(". ");
             }
             Console.WriteLine("Завершение работы метода Display");
         }
