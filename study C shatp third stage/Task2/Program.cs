@@ -8,20 +8,20 @@ namespace Task2
     {
         static void Display()
         {
-            Console.WriteLine("Начало работы метода Display");
+            Console.WriteLine("\nНачало работы метода Display");
             for (int i = 0; i < 100; i++)
             {
                 Thread.Sleep(100);
                 Console.Write(". ");
             }
-            Console.WriteLine("Завершение работы метода Display");
+            Console.WriteLine("\nЗавершение работы метода Display");
         }
         static void Main(string[] args)
         {
             Task task = new Task(Display);
             task.Start();
             task.Wait(); //Чтобы указать, что метод Main должен подождать до конца выполнения задачи, нам надо использовать метод Wait:
-            Console.WriteLine("Завершение метода Main");
+            Console.WriteLine("\nЗавершение метода Main");
             Console.ReadLine();
         }
     }
