@@ -15,7 +15,7 @@ namespace Task5
             // задача продолжения
             Task task2 = task1.ContinueWith(Display);
 
-           // task1.Start();
+            task1.Start();
 
             // ждем окончания второй задачи
             task2.Wait();
