@@ -18,7 +18,7 @@ namespace Task5
             task1.Start();
 
             // ждем окончания второй задачи
-           // task2.Wait();
+            task2.Wait();
             Console.WriteLine("Выполняется работа метода Main");
             Console.ReadLine();
         }
