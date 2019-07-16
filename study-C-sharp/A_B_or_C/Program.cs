@@ -6,7 +6,7 @@ namespace A_B_or_C
     {
         public abstract class A
         {
-            public virtual string Print()
+            public  string Print()
             {
                 return "A";
             }
@@ -14,7 +14,7 @@ namespace A_B_or_C
 
         public class B : A
         {
-            public virtual new string Print()
+            public new string Print()
             {
                 return "B";
             }
@@ -22,14 +22,14 @@ namespace A_B_or_C
 
         public class C : B
         {
-            public override string Print()
+            public new string Print()
             {
                 return "C";
             }
         }
         static void Main(string[] args)
         {
-            A ac= new C();
+            A ac= new B();
             Console.WriteLine(ac.Print());
             Console.ReadKey();
         }

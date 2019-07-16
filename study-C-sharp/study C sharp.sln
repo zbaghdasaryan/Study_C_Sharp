@@ -161,9 +161,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try_Catch_Finaly", "Try_Cat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread_Join_1", "Thread_Join_1\Thread_Join_1.csproj", "{B39DAE98-BFC8-4323-89E4-61BEDC6B100C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread_Join_2", "Thread_Join_2\Thread_Join_2.csproj", "{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread_Join_2", "Thread_Join_2\Thread_Join_2.csproj", "{2EB7AEC7-386E-40AE-BAA2-D1ACCE1FDA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread_ForeGround", "Thread_ForeGround\Thread_ForeGround.csproj", "{A0E5C622-E346-4E97-8239-50251CDA0FB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread_ForeGround", "Thread_ForeGround\Thread_ForeGround.csproj", "{A0E5C622-E346-4E97-8239-50251CDA0FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Private", "Private\Private.csproj", "{872412EA-8D0F-45FB-84D7-FE6287D4C952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +497,10 @@ Global
 		{A0E5C622-E346-4E97-8239-50251CDA0FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E5C622-E346-4E97-8239-50251CDA0FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0E5C622-E346-4E97-8239-50251CDA0FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872412EA-8D0F-45FB-84D7-FE6287D4C952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872412EA-8D0F-45FB-84D7-FE6287D4C952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872412EA-8D0F-45FB-84D7-FE6287D4C952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872412EA-8D0F-45FB-84D7-FE6287D4C952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
